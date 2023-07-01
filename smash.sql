@@ -30,7 +30,7 @@ CREATE TABLE GAME (
 );
 CREATE TABLE PLAYER (
     playername VARCHAR2(50),
-    PRIMARY KEY (playerid)
+    PRIMARY KEY (playername)
 );
 CREATE TABLE FIGHTER (
     fightername VARCHAR2(50),
